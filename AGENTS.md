@@ -25,7 +25,7 @@ orchid-cli-ts/
       config.ts, flow.ts, oidc.ts, pkce.ts, tokenStore.ts, middleware.ts
     commands/
       auth.ts, chat.ts, config.ts, generateFlower.ts, index.ts,
-      jobs.ts, mcp.ts, runs.ts, schedules.ts, signals.ts, skill.ts
+      jobs.ts, mcp.ts, runs.ts, schedules.ts, signals.ts
       _chatHelpers.ts, _chatInteractive.ts, _chatSend.ts, _eventsSession.ts
       _flower/ (wizard, templates, questions, validators, scaffolding, aiAssistant, output)
     slashCommands.ts             Extensible slash-command registry

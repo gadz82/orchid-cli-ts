@@ -14,7 +14,6 @@ import { mcpCommand } from './commands/mcp.js';
 import { runsCommand } from './commands/runs.js';
 import { schedulesCommand } from './commands/schedules.js';
 import { signalsCommand } from './commands/signals.js';
-import { skillCommand } from './commands/skill.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const pkgPath = path.join(__dirname, '..', 'package.json');
@@ -34,6 +33,5 @@ program.addCommand(mcpCommand);
 program.addCommand(runsCommand);
 program.addCommand(schedulesCommand);
 program.addCommand(signalsCommand);
-program.addCommand(skillCommand);
 
 program.parse();
