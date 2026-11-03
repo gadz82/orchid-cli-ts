@@ -19,6 +19,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const pkgPath = path.join(__dirname, '..', 'package.json');
 const pkg = JSON.parse(readFileSync(pkgPath, 'utf-8')) as { version: string };
 
+// ORCHID-MEM: 01a1a0c1-ddeb-7ad9-a3b1-d1a2ad58de18 — TypeScript CLI command root
 const program = new Command();
 
 program.name('orchid').description('Orchid AI — multi-agent framework CLI').version(pkg.version);
